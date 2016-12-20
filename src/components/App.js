@@ -4,7 +4,7 @@ import marked from 'marked';
 import Input from './Input';
 import Output from './Output';
 
-import './App.css';
+import './app.css';
 
 class App extends Component {
   constructor() {
@@ -43,7 +43,10 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{
+        display: 'flex',
+        background: '#3498DB'
+      }}>
         <Input inputText={ this.state.input } change={ this.handleChange }/>
         <Output outputText={ this.state.output }/>
       </div>

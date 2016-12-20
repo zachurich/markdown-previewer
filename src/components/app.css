@@ -1,0 +1,29 @@
+// Global typography styles
+
+blockquote {
+  font-style: italic;
+  color: #aaa;
+  border-left: 4px solid #3498db;
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #023854;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #023854;
+}
